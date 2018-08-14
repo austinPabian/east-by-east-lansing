@@ -44,6 +44,12 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        
+        <style type="text/css">
+       .no-fouc {display: none;}
+     </style>
+
+    
 
 
     </head>
@@ -575,7 +581,7 @@
                                 About EXEL
                             </h3>
                             <p>
-                                Founded in 2015, East By East Lansing is the proud brainchild of Austin Pabian and Lee Cleaveland, and curated by The IMPACT 89FM Student Radio Station and Pi Sigma Epsilon Co-Ed Business Fraternity. The event always gives portions of its proceeds and 100% of its donations to charity.
+                                Founded in 2015, East By East Lansing is the proud brainchild of Austin Pabian and Lee Cleaveland, and curated by The IMPACT 89FM Student Radio Station and Pi Sigma Epsilon Co-Ed Business Fraternity. The event always gives 100% of its donations and a portion of its proceeds to charitable causes.
                             </p>
                         </div><!--footer-col-->
                     </div>
@@ -607,6 +613,8 @@
         <!--back to top-->
         <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
         <!--back to top end-->
+           </div>
+            <footer>
         <!--scripts and plugins -->
         <!--must need plugin jquery-->
         <script src="js/jquery.min.js"></script>        
@@ -637,7 +645,15 @@
         <script src="js/jqBootstrapValidation.js" type="text/javascript"></script>
         <!--customizable plugin edit according to your needs-->
         <script src="js/custom.js" type="text/javascript"></script>
-            </div>
+            <script type="text/javascript">
+      document.documentElement.className = 'no-fouc';
+     $(window).on("load", function() {
+        $('.no-fouc').removeClass('no-fouc');
+     });    
+    </script>
+            </footer>
+                
+            
         </section>
     </body>
 </html>
