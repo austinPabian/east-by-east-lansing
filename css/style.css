@@ -409,7 +409,7 @@ h2.slide-btm-text{
     transition: 0.7s ease-in-out;
 }
 
-.service-box:hover i{
+.service-icon:hover{
     background-color: #067a50;
     color:#fff;
 }
