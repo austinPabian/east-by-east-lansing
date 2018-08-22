@@ -744,6 +744,11 @@ h2.slide-btm-text{
 .address-info p{
     color:#777;
 }
+
+.nostyle:hover{
+    background-color: transparent!important;
+}
+
 .social li a i{
     font-size: 20px;
     color:#777;
